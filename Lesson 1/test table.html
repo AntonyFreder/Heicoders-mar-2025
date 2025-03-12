@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merged Cells in Table</title>
+    <style>
+        table {
+            width: 70%; /* Table width */
+            border-collapse: collapse; /* Combine borders */
+            margin-bottom: 20px; /* Space below the table */
+        }
+
+        th, td {
+            border: 1px solid #ccc; /* Border for table cells */
+            padding: 8px; /* Spacing within cells */
+            text-align: left; /* Align text to the left */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Merged Rows and Columns Example</h1>
+
+<table>
+    <tr>
+        <th colspan="2">Merged Header</th> <!-- Merges two columns -->
+        <th>Column 3</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Merged Row Data</td> <!-- Merges two rows -->
+        <td>Data 1</td>
+        <td>Data 3</td>
+    </tr>
+    <tr>
+        <td>Data 2</td>
+        <td>Data 4</td>
+    </tr>
+</table>
+
+</body>
+</html>
